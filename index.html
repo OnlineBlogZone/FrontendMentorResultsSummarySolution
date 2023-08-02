@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,700;0,800;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+  <main>
+    <div data-role="presentation" class="component">
+      <div class="banner">
+        <h2 class="banner__heading">Your Result</h2>
+        <div class="banner__circle">
+          <span class="banner__score">76</span>
+          <span class="banner__total">of 100</span>
+        </div>
+        <div class="banner__summary">
+          <h3 class="banner__result">Great</h3>
+          <p class="banner__paragraph">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div>
+      
+      <div class="summary">
+        <h2 class="summary__heading">Summary</h2>
+        <div class="summary__results">
+          <div class="result result--reaction">
+            <div class="result__heading">
+              <img class="result__image" src="./assets/images/icon-reaction.svg" alt="Reaction Icon">
+              Reaction
+            </div>
+            <span class="result__score">80 <span class="result__total">/ 100</span></span>
+          </div>
+          <div class="result result--memory">
+            <div class="result__heading">
+              <img class="result__image" src="./assets/images/icon-memory.svg" alt="Memory icon">
+              Memory
+            </div>
+            <span class="result__score">92 <span class="result__total">/ 100</span></span>
+          </div>
+          <div class="result result--verbal">
+            <div class="result__heading">
+              <img class="result__image" src="./assets/images/icon-verbal.svg" alt="Verbal Icon">
+              Verbal
+            </div>
+            <span class="result__score">61 <span class="result__total">/ 100</span></span>
+          </div>
+          <div class="result result--visual">
+            <div class="result__heading">
+              <img class="result__image" src="./assets/images/icon-visual.svg" alt="Visual Icon">
+              Visual
+            </div>
+            <span class="result__score">72 <span class="result__total">/ 100</span></span>
+          </div>
+        </div>
+        <a class="summary__button" href="#" aria-label="Continue">Continue</a>
+      </div>
+    </div>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://onlineblogzone.com/author/matthias">OnlineBlogZone | Matthias
+      </a>.
+    </div>
+  </main>
+</body>
+</html>
