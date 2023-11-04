@@ -9,8 +9,6 @@ This is a solution to the [Results Summary component challenge on Frontend Mento
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -24,10 +22,10 @@ This README will provide insight and information abou my solution for the Result
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [https://onlineblogzone.github.io/FrontendMentorResultsSummarySolution/](https://onlineblogzone.github.io/FrontendMentorResultsSummarySolution/)
 
 ## My process
-- TODO
+- [https://onlineblogzone.com/frontend-mentor-results-summary/](https://onlineblogzone.com/frontend-mentor-results-summary/)
 
 ### Built with
 
@@ -36,12 +34,6 @@ This README will provide insight and information abou my solution for the Result
 - BEM methodology
 - Flexbox
 - Mobile-first workflow
-
-### What I learned
-- TODO
-
-### Continued development
-- TODO
 
 ### Useful resources
 
